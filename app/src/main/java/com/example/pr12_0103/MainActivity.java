@@ -2,6 +2,8 @@ package com.example.pr12_0103;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
@@ -37,5 +39,22 @@ public class MainActivity extends AppCompatActivity {
                         });
         AlertDialog alert = builder.create();
         alert.show();
+    }
+    EditText fio;
+    EditText phone;
+    EditText adress;
+
+    public void OnArange(View view){
+        fio = findViewById(R.id.FIO);
+        phone = findViewById(R.id.Phone);
+        adress = findViewById(R.id.adres);
+
+        if(fio.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите Фамилию, Имя и Отчество!");
+        else if(phone.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите номер телефона!");
+        else if(adress.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите адрес доставки!");
+        else
+        {
+            AlertDialog("Уведомление", "Заказ оформлен.");
+        }
     }
 }

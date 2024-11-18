@@ -35,9 +35,9 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="30dp"
                 android:layout_marginBottom="20dp"
-                android:text="Пермь, Пермский край, ул. Революции, д.13"
-                android:textColor="#90F0F0F0"
-                android:textSize="14dp" />
+                android:text="Пермь, Пермский край, ул. Клары Цеткин, 2"
+                android:textColor="@color/white"
+                android:textSize="13dp" />
 
         </FrameLayout>
 
@@ -49,66 +49,66 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="15dp"
-                android:layout_marginLeft="30dp"
-                android:textSize="18dp"
+                android:text="Укажите персональные данные:"
                 android:textColor="@color/black"
-                android:text="Укажите персональные данные:"/>
+                android:textSize="18dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
                 android:layout_marginLeft="30dp"
-                android:textColor="#B6B6B6"
-                android:text="Фамилия, Имя, Отчество:"/>
+                android:layout_marginBottom="15dp"
+                android:text="Фамилия, Имя, Отчество:"
+                android:textColor="#B6B6B6" />
 
             <EditText
                 android:id="@+id/FIO"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:textSize="16dp"
-                android:textColor="@color/black"/>
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
                 android:layout_marginLeft="30dp"
-                android:textColor="#B6B6B6"
-                android:text="Телефон:"/>
+                android:layout_marginBottom="15dp"
+                android:text="Телефон:"
+                android:textColor="#B6B6B6" />
 
             <EditText
                 android:id="@+id/Phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:textSize="16dp"
-                android:textColor="@color/black"/>
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
                 android:layout_marginLeft="30dp"
-                android:textColor="#B6B6B6"
-                android:text="Адрес доставки:"/>
+                android:layout_marginBottom="15dp"
+                android:text="Адрес доставки:"
+                android:textColor="#B6B6B6" />
 
             <EditText
                 android:id="@+id/adres"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:textSize="16dp"
-                android:textColor="@color/black"/>
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -121,8 +121,5 @@
                 android:text="ОФОРМИТЬ ЗАКАЗ"
                 android:textColor="@color/white" />
         </LinearLayout>
-
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
